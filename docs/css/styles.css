@@ -16,10 +16,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0;
     width: 40vh;
-    height: 40vh;
+    height: 45vh;
     border-radius: 20px;
     box-shadow: 0 8px 16px #1D4720;
     overflow: hidden;
@@ -66,13 +66,29 @@
     margin-top: 20px;
     color: #BCB382;
 }
-nav, ul, li {
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li {
+    margin: 0;
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+.links nav, ul, li {
+    margin: 10px;
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin: 10px;
-}
-.links {
     margin: 10px;
 }
 .icons {
