@@ -13,6 +13,12 @@
                         <li><a href="osint.html">OSINT</a></li>
                     </ul>
                 </nav>
+                <nav class="navbar">
+                    <ul>
+                        <li class="osintTypeButtons"><button id="emailButton">Email</button></li>
+                        <li class="osintTypeButtons"><button id="ipAddressButton">IP Addreses</button></li>
+                    </ul>
+                </nav>                
                 <div class="description">
                     <p>Enter a company email and I will show you some data relating to it. Personal emails cost money to buy an API for, so I'm using a free data provider for my showcase here.</p>
                     
@@ -23,7 +29,7 @@
                 <div class="textBoxDiv">
                     <form action="" class="textBoxes">
                         <input type="text" id="userAPIInput" placeholder="Public API Key">
-                        <input type="text" id="userEmailInput" placeholder="jane.fraser@citi.com">
+                        <input type="text" id="userInput" placeholder="jane.fraser@citi.com">
                         <button id="searchEmail" type="button">Search</button>
                     </form>
                 </div>
