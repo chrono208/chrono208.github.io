@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #121619;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: #2D4739;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px #1D4720;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.osintTypeButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+.description {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    overflow-y: auto;
+}
+
+.description2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.textBoxDiv{
+    width: 70%;
+}
+
+.textBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+input{
+    margin: 1px;
+    width: 80%;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 50%;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #121619;
+}
+.resultBox{
+    background-color: white;
+    color: #121619;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px #121619;
+}
+#result {
+    background-color: transparent;
+    color: aliceblue;
+    width: 60%;
+    min-height: 120px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    text-align: center;
+}
